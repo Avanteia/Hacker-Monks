@@ -80,7 +80,7 @@ html {
   /* Main content container */
   .home-section {
     background-color: #0D1117; /* Blue background color */
-    color: #FFFFFF;
+    color: #be1717;
     padding: 60px 20px;
     display: flex; /* Flex container for left and right alignment */
     justify-content:center; /* Space between content and image */
@@ -89,7 +89,7 @@ html {
     margin-top: 10px; /* Offset for fixed header */
     padding-left: 50px;
     position: relative;
-    top: -30px;
+    top: -1px;
 
   }
 
@@ -388,7 +388,7 @@ h2, h3 {
 /* Pricing section styles */
 .pricing-section {
   width: 100%;
-  background-color: #ffffff; /* White background */
+  background-color: #1a1e2e; /* White background */
   padding: 40px 20px; /* Adjusted padding for better spacing */
   display: flex;
   flex-direction: column; /* Stacks content vertically */
@@ -408,13 +408,13 @@ h2, h3 {
 .section-title h2 {
   text-align: center;
   font-size: 28px;
-  color: #1e2a2a;
+  color: #ffffff;
   padding-bottom: 20px;
 }
 
 .section-title p {
   text-align: center; /* Centers the heading */
-  color: #1e2a2a; /* Darker color for headings */
+  color: #ffffff; /* Darker color for headings */
   font-weight: bold;
   margin-bottom: 20px;
 }
