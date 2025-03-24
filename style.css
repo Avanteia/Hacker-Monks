@@ -13,7 +13,7 @@ html {
   /* Background and main layout styling */
   body {
     font-family: 'Roboto', Arial, sans-serif;
-    color: #FFFFFF;
+    color: #0D1117;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,16 +131,16 @@ html {
   
   /* General Section Styles */
 .section {
-  max-width: 1200px;
+  max-width: px;
   margin: 0 auto;
   padding: 40px 20px;
   font-family: 'Arial', sans-serif; /* General font for the section */
-  background-color: #ffffff; /* White background */
+  background-color: #0D1117; /* Black background */
 }
 
 h2, h3 {
   font-weight: bold;
-  color: #1e2a2a; /* Darker color for headings */
+  color: #ffffff; /* Darker color for headings */
   font-family: 'Roboto', sans-serif;
 }
 
@@ -153,7 +153,7 @@ h2, h3 {
 .centered-heading {
   text-align: center;
   font-size: 28px;
-  color: #333;
+  color: #ffffff;
   padding-bottom: 10px;
 }
 
@@ -166,7 +166,6 @@ h2, h3 {
   margin-top: 20px;
   flex-wrap: wrap; /* Allow wrapping on smaller screens */
   padding: 0 20px; /* Ensures content stays aligned without boxing */
-  background-color: #0D1117;
 }
 
 .about-image {
@@ -175,20 +174,20 @@ h2, h3 {
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   flex-shrink: 0; /* Prevents image from shrinking */
- position: relative;
- top: -15px;
+  position: relative;
+  top: -15px;
   
 }
 
 .about-text {
   flex: 1; /* Allow text to take available space */
-  color: #333;
+  color: #ffffff;
 }
 
 .about-text p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.8;
-  color:rgb(255, 255, 255);
+  color:#ffffff;
 }
 
 /* Learn and Practice Section Layout */
@@ -204,6 +203,7 @@ h2, h3 {
 
 .learn-info {
   width: 100%;
+  text-align: center;
 }
 
 .feature-underline {
@@ -215,7 +215,7 @@ h2, h3 {
 
 .learn-header {
   font-size: 24px;
-  color: #171a1a;
+  color: #ffffff;
   margin-bottom: 10px;
   font-style: italic;
 }
@@ -223,7 +223,7 @@ h2, h3 {
 .learn-description {
   font-size: 18px;
   line-height: 1.8;
-  color: #333;
+  color: #ffffff;
 }
 
 .learn-info p::before {
@@ -365,6 +365,7 @@ h2, h3 {
   height: 3px;
   background-color: #39ff14; /* Bright green underline */
   margin-bottom: 1.5rem;
+  margin-inline-start:0%;
 }
 
 .feature-content p {
@@ -716,7 +717,7 @@ h2, h3 {
 }
 
 .footer a:hover {
-  color: #00D44C;
+  color: #f41111;
 }
 
 .hamburger {
