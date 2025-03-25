@@ -29,7 +29,7 @@ html {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 100px;
     z-index: -1;
     opacity: 0.1;
   }
@@ -81,7 +81,7 @@ html {
   .home-section {
     background-color: #0D1117; /* Blue background color */
     color: #be1717;
-    padding: 60px 20px;
+    padding: 105px 50px;
     display: flex; /* Flex container for left and right alignment */
     justify-content:center; /* Space between content and image */
     align-items: center; /* Center items vertically */
@@ -133,7 +133,7 @@ html {
 .section {
   max-width: px;
   margin-top: 0 auto;
-  padding: 40px 20px;
+  padding: 120px 20px;
   font-family: 'Arial', sans-serif; /* General font for the section */
   background-color: #0D1117; /* Black background */
 }
@@ -267,7 +267,7 @@ h2, h3 {
   font-size: 28px;
   color: #ffffff;
   padding-bottom: 20px;
-  padding-top: 20px;
+  padding-top: 100px;
 }
 
 .service-container {
@@ -389,18 +389,24 @@ h2, h3 {
 .pricing-section {
   width: 100%;
   background-color: #1a1e2e; /* White background */
-  padding: 40px 20px; /* Adjusted padding for better spacing */
+  padding: 70px 20px; /* Adjusted padding for better spacing */
   display: flex;
   flex-direction: column; /* Stacks content vertically */
   align-items: center; /* Centering the content horizontally */
   justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 50px;
+    position: relative;
+    top: -9px;
+
 }
 
 /* Container styles */
 .container {
   max-width: 1200px; /* Maximum width for the container */
   margin: 0 auto;
-  padding: 0 20px; /* Prevents touching the sides on small screens */
+  padding: 40px 20px; /* Prevents touching the sides on small screens */
   width: 100%; /* Full width inside the container */
 }
 
